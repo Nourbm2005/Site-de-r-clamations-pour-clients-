@@ -1,0 +1,138 @@
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(188, 195, 223);}
+th, td {
+    border: 2px solid rgb(188, 195, 223);
+    padding: 5px 10px;
+  }
+
+h2 {
+    margin-top: 80px;
+        text-align: center;
+        color: blue;
+    }
+select {
+    width:75%;
+    border:solid rgb(188, 195, 223) 2px; 
+    border-radius: 3px;
+    display: center;
+}
+.exclude {
+    vertical-align: middle;
+    margin-bottom: 5px;
+
+}
+.exclude1 {
+    font-style:normal;
+    height: 20px;
+    border: solid rgb(188, 195, 223) 2px;
+    border-radius: 3px;
+    width: 30%;
+}
+legend {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+p:not(.date) {
+    text-align: center;
+    font-style: italic;
+}
+body {
+    background: linear-gradient(270deg, #f3f1f0, rgb(188, 195, 223), #cbc8c6);
+    background-size: 600% 600%;
+    background-color: rgb(230, 233, 245);
+    animation: bgMove 12s ease infinite;
+}
+form {
+    background-color: white;
+    width: 30%;
+    margin: 20px auto ;
+    border-radius: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+fieldset {
+    border: none;
+}
+.area {
+    display: block;
+margin-top: 20px;
+}
+div {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+textarea, input:not(.exclude):not(.exclude1):not(.cin){
+    height: 20px;
+    border: solid rgb(188, 195, 223) 2px;
+    width: 100%;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 3px;
+}
+.cin {
+    width: 60%;
+    height: 20px;
+    border: solid rgb(188, 195, 223) 2px;
+    margin-bottom:10px;
+    border-radius: 3px;
+}
+input:focus {
+    border: solid blue 2px;
+    
+}
+.reclamer {
+    background-color: #e4f0ff;
+    color: rgb(10, 6, 6);
+    margin-left: 10px;
+}
+button:not(.reclamer){
+    display: block;
+    margin: 10px auto;
+        background-color: #82b1ef;
+        color: white;
+
+}
+button:hover {
+    background-color: blue;
+}
+a {
+    color: blue;
+}
+a:hover {
+    color: rgb(166, 166, 226);
+}
+
+.container {
+    text-align:center;
+}
+.message {
+    color: red;
+    font-style: normal;
+}
+h1 {
+    margin-top: 80px;
+    text-align: center;
+    background: linear-gradient(270deg, #7ea1d6, blue, #82b1ef);
+    color: white;
+    margin-right: 400px;
+    margin-left: 400px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+
+@keyframes bgMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
